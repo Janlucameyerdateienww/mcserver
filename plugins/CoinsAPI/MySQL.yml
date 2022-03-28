@@ -1,0 +1,9 @@
+# CoinsAPI
+# Plugin by Neonn_Bukkit
+MySQL:
+  Host: sql11.freemysqlhosting.net
+  Port: '3306'
+  Username: sql11482109
+  Database: sql11482109
+  Password: fHzn6UnItT
+  SSL: 'true'

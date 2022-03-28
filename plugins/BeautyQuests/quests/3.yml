@@ -1,0 +1,95 @@
+name: Quest1
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+starterNPC: 3
+startableFromGUI: true
+failOnDeath: true
+requirements:
+- questID: 2
+  id: questRequired
+firework:
+  ==: ItemMeta
+  meta-type: FIREWORK
+  firework-effects:
+  - ==: Firework
+    flicker: false
+    trail: false
+    colors:
+    - ==: Color
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    fade-colors:
+    - ==: Color
+      RED: 179
+      BLUE: 44
+      GREEN: 49
+    type: BALL
+  power: 3
+id: 3
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: LOCATION
+      customText: null
+      location:
+        world: Hub
+        x: 0.48290035171064233
+        y: 69.0
+        z: -63.68084360156277
+        pitch: 60.00012
+        yaw: -175.94873
+      text: Gehe Zum Burgtor
+      radius: 5
+      rewards:
+      - id: checkpointReward
+        actions:
+        - id: commandReward
+          commands: []
+        - id: itemReward
+          items:
+          - v: 2586
+            type: BUCKET
+      - id: itemReward
+        items:
+        - v: 2586
+          type: BUCKET
+      order: 0
+    - bucket: WATER
+      amount: 1
+      stageType: BUCKET
+      customText: null
+      text: Fülle Ein Eimer mit wasser
+      order: 1
+    - stageType: ITEMS
+      customText: null
+      text: Bringe den Wassereimer zum Quest NPC
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WATER_BUCKET
+      npcID: 3
+      order: 2
+    - writeText: Hier, Ihr Wassereimer
+      stageType: CHAT
+      ignoreCase: true
+      customText: null
+      placeholders: false
+      text: Schreibe:"Hier, Ihr Wassereimer"
+      rewards:
+      - money: 500.0
+        id: moneyReward
+      - id: titleReward
+        title:
+          subtitle: Quest Beendet
+          title: Erfolgreich
+      order: 3
+    endingStages: []

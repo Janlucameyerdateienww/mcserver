@@ -1,0 +1,9 @@
+# CoinsAPI
+# Plugin by Neonn_Bukkit
+Settings:
+  CommandPay: 'true'
+  Sounds: 'true'
+  NumberFormat: 'true'
+  FirstJoinCoins:
+    Enabled: 'true'
+    Amount: '500'

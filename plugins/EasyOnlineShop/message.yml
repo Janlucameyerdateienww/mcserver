@@ -1,0 +1,120 @@
+message:
+  current-version: "&b&lEasyOnlineShop的当前版本是:{current}"
+  latest-version: "&b&lEasyOnlineShop的最新版本是:{latest}"
+  help:
+    - "&a&l=======帮助======="
+    - "&a&l/eos gui   打开gui"
+    - "&a&l/eos help  查看帮助"
+  no-perm-help: "&4&l指令执行失败：缺少EasyOnlineShop.help权限"
+  no-perm-gui: "&4&l指令执行失败：缺少EasyOnlineShop.gui权限"
+  no-perm-reload: "&4&l指令执行失败：缺少EasyOnlineShop.reload权限"
+  not-player-cant-open-gui: "&4&l指令执行失败：只有玩家能打开gui"
+  io-exception: "&4&lIO异常：可能是交易记录过程中出现了问题，可联系管理员查看后台报错"
+  success-reload: "&a&l重载成功:重载插件成功"
+  success-open-gui: "&a&l打开成功:已为你打开GUI"
+  sql-exception: "&4&l数据库异常：数据库未知的异常,联系腐竹查看,可能会引起系统繁忙,等待一定时间后可能自动恢复"
+  others-are-accessing: "&4&l系统繁忙:其他人正在访问相关数据，请稍后再试"
+
+  trade-record-notify-buy: "&a&l{player}在你的商店:{shop}购买了{amount}个商品:{good}"
+  trade-record-notify-sell: "&a&l{player}在你的商店:{shop}出售了{amount}个商品:{good}"
+  gui-disabled-when-plugin-disabled: "&4&l插件关闭了,GUI即将关闭"
+
+  ##所有在market界面可以触发的消息
+  success-collect-in-market: "&a&l收藏成功：商已自动刷新当前页面"
+  success-de-collect-in-market: "&a&l取消收藏成功：商已自动刷新当前页面"
+  shop-not-exist-when-show-shop: "&4&l打开失败：店铺刚刚被删除了，已自动刷新当前页面"
+  cancel-search-shop: "&a&l取消成功：你已成功取消搜索店铺"
+  show-search-shop: "&a&l搜索成功：正在显示搜索到的商店"
+  search-shop: "&b&l请输入字符模糊搜索商店，输入cancel取消"
+
+
+
+  ##所有在market manager触发的
+  have-max-shop: "&4&l创建失败：商店数目已经达到了你能创建的最大值"
+  shop-not-found-which-belong-you: "4a&l删除失败，没有找到属于你的指定店铺"
+  shop-not-exist-when-show-shop-manager: "&4&l打开失败：店铺刚刚被删除了，已自动刷新当前页面"
+  how-to-delete-shop-tip: "&b&l请输入店铺名称完成删除，输入cancel取消"
+  cancel-delete-shop: "&a&l取消成功：你已经成功取消删除店铺操作"
+  how-to-create-shop-tip: "&b&l请输入店铺名称完成创建，输入cancel取消"
+  cancel-create-shop: "&a&l取消成功：你已经成功取消创建"
+  cancel-search-my-shop: "&a&l取消成功：你已成功取消搜索我的商店"
+  show-search-my-shop: "&a&l搜索成功：正在显示搜索到的我的商店"
+  search-my-shop: "&b&l请输入字符模糊搜索我的商店，输入cancel取消"
+  repititive-shop-name: "&4&l创建失败：这个商店名字已经被使用过了"
+  shop-have-rest-good: "&4&l删除失败：店铺仍有商品，无法删除"
+
+  ##collect market触发
+  success-de-collect-in-collect-market: "&a&l取消收藏成功：商已自动刷新当前页面"
+  not-collect-the-shop-in-collect-shop: "&4&l取消收藏失败：你未收藏过这个商店了"
+  shop-not-exist-when-de-collect-shop-in-collect-market: "&4&l取消收藏失败：店铺刚刚被删除了，已自动刷新当前页面"
+  cancel-search-collect-shop: "&a&l取消成功：你已成功取消搜索收藏商店"
+  show-search-collect-shop: "&a&l搜索成功：正在显示搜索到的收藏商店"
+  search-collect-shop: "&b&l请输入字符模糊搜索收藏商店，输入cancel取消"
+
+  #shop触发
+  good-price-change-when-sell: "&4&l出售失败：商品刚刚修改了价格，已自动刷新当前页面"
+  good-price-change-when-buy: "&4&l购买失败：商品刚刚修改了价格，已自动刷新当前页面"
+  already-collect-the-shop: "&4&l收藏失败：你已经收藏过这个商店了"
+  not-collect-the-shop: "&4&l取消收藏失败：你未收藏过这个商店了"
+  shop-not-exist-when-collect-shop: "&4&l收藏失败：店铺刚刚被删除了，已自动刷新当前页面"
+  shop-not-exist-when-de-collect-shop: "&4&l取消收藏失败：店铺刚刚被删除了，已自动刷新当前页面"
+  shop-not-exist-when-search-good: "&4&l搜索失败：店铺刚刚被删除了，已自动刷新当前页面"
+  shop-not-exist-when-create-good: "&4&l创建失败：店铺刚刚被删除了，已自动刷新当前页面"
+  shop-not-exist-when-update-good: "&4&l更新失败：店铺刚刚被删除了，已自动刷新当前页面"
+  shop-not-exist-when-delete-good: "&4&l删除失败：店铺刚刚被删除了，已自动刷新当前页面"
+  good-not-exist-when-sell-good: "&4&l出售失败：商品刚刚被删除了，已自动刷新当前页面"
+  good-not-exist-when-buy-good: "&4&l购买失败：商品刚刚被删除了，已自动刷新当前页面"
+  how-to-buy-tip: "&b&l请输入购买数量，输入cancel取消"
+  cancel-buy: "&a&l取消成功：你已成功取消购买"
+  how-to-sell-tip: "&b&l请输入出售数量，输入cancel取消"
+  cancel-sell: "&a&l取消成功：你已成功取消出售"
+  success-sell: "&a&l卖出成功：你已成功卖出商品 税收:{tax}"
+  success-buy: "&a&l买入成功：你已成功买入商品"
+  you-no-such-amount-item-for-sell: "&4&l卖出失败：你没有这么多的物品去卖"
+  player-inventory-full-for-buy: "&4&l买入失败：你的背包满了,无法购买"
+  no-more-for-buy: "&4&l买入失败：商品库存不足,无法购买"
+  merchant-no-money: "&4&l卖出失败：店主没钱了"
+  you-no-money: "&4&l买入失败：你的钱不足，无法购买"
+  cancel-search-good: "&a&l取消成功：你已成功取消搜索商品"
+  show-search-good: "&a&l搜索成功：正在显示搜索到的商品"
+  search-good: "&b&l请输入字符模糊搜索商品，输入cancel取消"
+
+  #shop manager触发
+  how-to-update-tip: "&b&l请输入要修改为的价格(非负数)，输入cancel取消"
+  cancel-update: "&a&l取消成功：你已成功取消修改商品的价格"
+  success-update: "&a&l修改成功：你已成功修改商品的价格"
+  good-not-found-in-this-shop: "&4&l删除失败：没有在这个店铺里找到这个商品"
+  shop-not-exist-when-search-shop-manager-good: "&4&l搜索失败：店铺刚刚被删除了，已自动刷新当前页面"
+  good-not-exist-when-update-good: "&4&l更新失败：商品刚刚被删除了，已自动刷新当前页面"
+  good-not-exist-when-take-good: "&4&l取出失败：商品刚刚被删除了，已自动刷新当前页面"
+  good-not-exist-when-deposit-good: "&4&l存入失败：商品刚刚被删除了，已自动刷新当前页面"
+  how-to-delete-good-tip: "&b&l请输入商品名字完成删除，输入cancel取消"
+  cancel-delete-good: "&a&l取消成功：你已成功取消删除店铺操作"
+  how-to-create-good-tip: "&b&l请主手持物品并空格隔开依次输入商品名字、商品类型(收购或出售)、商品价格(非负数)，输入cancel取消"
+  cancel-create-good: "&a&l取消成功：你已成功取消创建店铺操作"
+  success-create-good: "&a&l创建成功：你已成功创建商品"
+  success-delete-good: "&a&l删除成功：你已成功删除商品"
+  success-create-shop: "&a&l创建成功：你已成功创建店铺"
+  success-delete-shop: "&a&l删除成功：你已成功删除店铺"
+  how-to-deposit-tip: "&b&l请输入存入数量(非负整数)，输入cancel取消"
+  cancel-deposit: "&a&l取消成功：你已成功取消存入操作"
+  how-to-take-tip: "&b&l请输入取出数量(非负整数)，输入cancel取消"
+  cancel-take: "&a&l取消成功：你已成功取消取出操作"
+  success-take: "&a&l取出成功：你已成功取出商品"
+  success-deposit: "&a&l存入成功：你已成功存入商品"
+  no-more-for-take: "&4&l取出失败：商品库存不足,无法取出"
+  you-no-such-amount-item-for-deposit: "&4&l存入失败：你没有这么多的物品去存入"
+  player-inventory-full-for-take: "&4&l取出失败：你的背包满了,无法取出"
+  repetitive-good-name-in-one-shop: "&4&l创建失败：你不能在同一个商店里创建重名的商品"
+  good-have-rest: "&4&l删除失败：商品还有剩余，无法删除"
+  cancel-search-my-good: "&a&l取消成功：你已成功取消搜索我的商品"
+  show-search-my-good: "&a&l搜索成功：正在显示搜索到的我的商品"
+  search-my-good: "&b&l请输入字符模糊搜索我的商品，输入cancel取消"
+
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 3
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: 0e68b123-6df9-4201-a822-4ffae822d429
+      cached-skin-uuid-name: troll
+    name: §cno name selected
+    uuid: 954742e2-e36b-4bae-828e-2846363a8d50
+    traits:
+      location:
+        bodyYaw: -97.867096
+        world: Lobby
+        x: '17.2887'
+        y: '63.0'
+        z: '9.6755'
+        yaw: '-107.0414'
+        pitch: '-11.893'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: npEPakg5uQeNpJPLc0IOSLT/f2gpZ5m94FNGxkcnZO8dysaAmpAdw3kCKQGgjibraiKRJ4cD4ddbrXuSsqN7GK0X3AqiNSpGRxFQwqiSkeKcuGCZKSh7Z/xIrTJhEi3amNK1MJYsqESJ70FrzsYE3Piog843EKcE+0rESAPVa9gk1f6pDesrHI17sqtSJZ3Gg+2sjPzLV86GUDLBAZ7KfDTMXa+J2dRx/ZFFzpytEazbnz9cEl2/RMhroYe0HtoP+byW2myNDQ2lQYLv1XJZBGTR5O1faQYQo+w9t6uqVAaWKmCS5R8ldenHwAeZk21Hr0hyD/eD8Jodx+qDq/wTJFtGQIDhZAcL+xpM5DbOwe7hvEFZ/O1CLFzJ8Exg1QZV2CekpKccjELvak7dWMDYO0yWp2GsXH2ULM2JuDGyyLwMaanGlDzGs9avRySyS9voRpZfe7hwIa8UgqOGDuAckGX1L1YFdm4w6HEhN7YGYyZ9IkwTuCI4RlznHZKhC4toHw0Q/JUhSpT6iYKgTRWJzdObMgXMD2vL+lK/trjm/RAKD6HRZL/tomRX6NftqkRpWhDj1DvTN+jV61YHaDXM9wb8fzYKc4OJR7XF23kfG19HqlZS7RRB9QGpiZJTapnx5lbouOq7nx09zz+1yr+9q5L9Otgjg70/wAMLaDGnph8=
+        skinName: troll
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0ODM5MDU2OTY2OCwKICAicHJvZmlsZUlkIiA6ICIwZTY4YjEyMzZkZjk0MjAxYTgyMjRmZmFlODIyZDQyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcm9sbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZWFkMzhkM2FlMzQzNGM5MThhZjlmNWNkZDMxM2Y1ZDQ2N2YxMjk4YWQ0N2M0NGU1MTc5NmI1ZDlhODJlYzdhIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      spawned: true
+    traitnames: skintrait,inventory,scoreboardtrait,location,equipment,mounttrait,lookclose,type,hologramtrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid: 8dd304b9-38ce-4622-b2af-607465796e25
+      cached-skin-uuid-name: quest
+    name: Quest
+    uuid: 46e31994-9914-4c59-9460-7a7fe2683803
+    traits:
+      location:
+        bodyYaw: -334.49988
+        world: Lobby
+        x: '33.5498'
+        y: '63.0'
+        z: '-1.4291'
+        yaw: '25.5001'
+        pitch: '45.6'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: GLAg81mbUBKSOvZxWqSyJZzQ99jiGrPFcsyQ9D9a23I7gm+N3lyHdI7FlamD2GcaRCJ5fOaiyNOR/MiNMBM/GUyVt3NEI8Y//M/Vth8Bp/5YZTh7/wC3A+mSW/X7MzoKXcv+GrVDT+UA0Nma9S42xr+a15iWh5pGPPskcYi/ItQs71fUllkGcXs8Nuwb9aVb+Oau2NTkmP/xCzQoKoipHZG0CZkIOqPbU5eheYpEoDIsnaHf6iogHr4NHpIgz68euGzafhjrxQHtlCHAiwlVfd3jRmWbaX+A5AMlWPmqOvjL/UDU6ZTlypiIDrD5xMdJYpsnDKqlOjljBa6ZDujAemfn03r1p1Yxz5br1lvkMS4TW4xAvjwHSpezADVhEYPyr/j7uZjDsBzi6DCwnek2Xgst7Y3yoAEMwIuPIQgayaglkA2FOl5RFYTc9F/WsTHLf5CLKdFb5YF9GpEkLrMkbhI7UyDvMvSvqfXvdSN2hAuPFIdqbAINL4myvh19izCMb1G72zIeBUC3n4Bxk0HoI5wHGA30WE88SFTSyr0leJn4mx7WkOrKULlOZviAShhuB/WXBzLvWwYuQdlkEWSYxYPjZxvCBQ2bhzqsZaNI2HyWu7sgclJx1+aTmHOQFhuCo9ugt03ibRgVJRTkrEC9Y9318cA1XdoAcXw7D/7omKM=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0ODM4OTcxMzcxNCwKICAicHJvZmlsZUlkIiA6ICI4ZGQzMDRiOTM4Y2U0NjIyYjJhZjYwNzQ2NTc5NmUyNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJxdWVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YTI3ZWJhZDViZjBhZjU4NGU5NTc5MzAxMDE1MzEyNWE0MDBhNzRiNTI4MTJmMDU1NTAyODkyYmEyOGViYjhkIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      owner:
+        uuid: 94374732-5671-4127-b0fe-8d31ea273105
+      spawned: true
+    traitnames: skintrait,owner,inventory,scoreboardtrait,location,equipment,mounttrait,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+      cached-skin-uuid-name: miner
+    name: Quest
+    uuid: 38795f48-3f25-4836-ae6f-6f002c7d6495
+    traits:
+      spawned: true
+      owner:
+        uuid: 94374732-5671-4127-b0fe-8d31ea273105
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: os5dBKSM8MsWHGXWiTeTmmgNLQuGwdEifhSvVBSMsu9scBxvACvsjQn0gzIeZP6xpZPYR8RGoHw+D3B/mB61mht0UmY3KfKpjnbfgVEbItj4GAj/mcCgODQYBanYBk24UvFwAlfwKztsdrybY4AOGarEETeVHA1C/siNcrG8mZzorPIWYxsbfYhMZM0hQCUaRfthoDQiRwC+pLFzUZZMxz7I5Mhz3unTFIps25jw3yF/gydLtI33fcNdwRDc7nlKOzkEN4GyOYpq21cH7Q0o+L0jQOTP4P9+nGScD1erAr5dh5XLxHacKKQ8OE6dRuoEd+HWQtoiWMTY5tLZvYqkNRRcvqhZ14EjkyNa7UEty9loJH5gnauEiPxk8KE61OkaUoMo9oblqGJyrn/Pg/c1mqYKPkIeTDQCc8Wix6M8RmBblQgujERvFdV9ZnNX3aE/x0z7lsIiLkSAl22LJGudhgB0XB1nsgsS6ekWbJxBC6PzeOCbEuwG3UP/m74SNukFXFC7+F2xU7B+jtV2maVBkibcFXweQ8p5U8VhY5DKuV5Dh18MwfmiMRqmyDCLq+5gFV33EUvFk1wIf3/PUoe+nEY+qkECj26W6Em6Fqa141DJsA5hSMnSt1eJX9fu0Z7zqCZFz20+1jS3hOhCRWZMjg3TPREA0PCjibCEcvg4Yqk=
+        skinName: miner
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0ODM5Njk1MzUxMSwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NDg4NzBjYTc3YWE2OTlkMDE3MDkzYjgyNzc5ZDBhNTk4ZGM0ZjNmNDlkMzUxNTMyYWU0ZDk2MzNkY2MyYTVhIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: -270.1494
+        world: Hub
+        x: '20.5211'
+        y: '63.0'
+        z: '0.3776'
+        yaw: '89.8506'
+        pitch: '-2.1'
+    traitnames: skintrait,owner,inventory,scoreboardtrait,location,equipment,mounttrait,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: Höhlenmensch
+    uuid: 5f51f5f4-53cb-4b57-9339-825f4d11236d
+    traits:
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        skinName: goblin
+        updateSkins: false
+      location:
+        bodyYaw: 164.38094
+        world: Hub
+        x: '5.3389'
+        y: '78.0'
+        z: '78.207'
+        yaw: '-155.6191'
+        pitch: '-0.0154'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: skintrait,inventory,scoreboardtrait,location,equipment,mounttrait,lookclose,type,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

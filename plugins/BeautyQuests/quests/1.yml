@@ -1,0 +1,25 @@
+endRewards:
+- money: 10000.0
+  id: moneyReward
+starterNPC: 0
+name: Test
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+scoreboard: false
+id: 1
+manager:
+  branches:
+  - order: 0
+    stages:
+    - stageType: NPC
+      customText: null
+      npcID: 1
+      order: 0
+    endingStages: []

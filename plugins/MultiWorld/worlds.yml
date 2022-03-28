@@ -1,0 +1,34 @@
+world:
+  creator: CONSOLE
+  creation-time: 1648393567151
+  last-world-interaction: 1648393567151
+  world-type: NORMAL
+  difficulty: PEACEFUL
+  gameMode: SURVIVAL
+  pvp-enabled: true
+world_nether:
+  creator: CONSOLE
+  creation-time: 1648393567246
+  last-world-interaction: 1648393567246
+  world-type: NETHER
+  difficulty: PEACEFUL
+  gameMode: SURVIVAL
+  pvp-enabled: true
+world_the_end:
+  creator: CONSOLE
+  creation-time: 1648393567276
+  last-world-interaction: 1648393567276
+  world-type: END
+  difficulty: PEACEFUL
+  gameMode: SURVIVAL
+  pvp-enabled: true
+Hub:
+  creator: affenheld
+  creation-time: 1648394555007
+  last-world-interaction: 1648472888218
+  world-type: VOID
+  difficulty: PEACEFUL
+  gameMode: SURVIVAL
+  pvp-enabled: 'false'
+  spawn-animals: 'false'
+  spawn-monsters: 'false'

@@ -1,0 +1,50 @@
+startRewards:
+- id: titleReward
+  title:
+    fadeOut: 50
+    fadeIn: 40
+    subtitle: Quest Gestartet
+    title: Finde den Höhlenmensch
+    stay: 80
+startMessage: Finde den Höhlenmensch
+name: höhlenmensch Quest
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+auto: true
+id: 2
+manager:
+  branches:
+  - order: 0
+    stages:
+    - msg:
+        msgs: []
+      stageType: NPC
+      customText: null
+      text: Finde "Höhlenmensch"
+      rewards:
+      - id: itemReward
+        items:
+        - v: 2586
+          type: COAL
+          amount: 10
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: '{"extra":[{"text":"Kohle"}],"text":""}'
+            lore:
+            - '{"extra":[{"text":"--------------"}],"text":""}'
+            - '{"extra":[{"text":"Kohle Vom Höhlenmensch"}],"text":""}'
+            - '{"extra":[{"text":"--------------"}],"text":""}'
+            - '{"extra":[{"text":" "}],"text":""}'
+            - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Quest
+              Item"}],"text":""}'
+      npcID: 2
+      order: 0
+    endingStages: []

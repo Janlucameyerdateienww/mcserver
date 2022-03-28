@@ -1,0 +1,204 @@
+
+gui:
+  title:
+    #这几个是界面容器的标题
+    market-title: "&e&l所有店铺列表"
+    shop-title: "&e&l商店{shopName}的全部商品"
+    market-manager-title: "&e&l玩家{playerName}的所有店铺"
+    shop-manager-title: "&e&l商店{shopName}的所有商品"
+    collect-market-title: "&e&l玩家{playerName}的所有收藏的商店"
+
+  button:
+
+
+    shop-manager-search:
+      material: "COMPASS"
+      display-name: "&a&l搜索我的商品"
+      lore:
+        - "&b&l点我通过商品的名称搜索我的商品"
+
+    shop-search:
+      material: "COMPASS"
+      display-name: "&a&l搜索商品"
+      lore:
+        - "&b&l点我通过商品的名称搜索商品"
+
+
+    market-manager-search:
+      material: "COMPASS"
+      display-name: "&a&l搜索我的店铺"
+      lore:
+        - "&b&l点我通过店铺的名称搜索我的店铺"
+
+    market-collect:
+      material: "ENDER_CHEST"
+      display-name: "&a&l查看收藏"
+      lore:
+        - "&b&l点我查看我收藏的店铺"
+
+    collect-market-back:
+      material: "BARRIER"
+      display-name: "&a&l所有店铺"
+      lore:
+        - "&b&l点我查看所有店铺"
+
+    collect-market-search:
+      material: "COMPASS"
+      display-name: "&a&l搜索店铺"
+      lore:
+        - "&b&l点我通过店铺的名称搜索店铺"
+
+    market-search:
+      material: "COMPASS"
+      display-name: "&a&l搜索店铺"
+      lore:
+        - "&b&l点我通过店铺的名称搜索店铺"
+
+    #可用在lore和display-name的变量: {owner} {begin} {name} {collect}
+    collect-market-shop:
+      material: "CHEST"
+      display-name: "&a&l店铺名字:{name}"
+      lore:
+        - "&b&l创建时间:{begin}"
+        - "&c&l店主:{owner}"
+        - "&d&l收藏数:{collect}"
+        - "&f&l潜行+右键取消收藏"
+        - "&e&l左键查看店铺中全部商品"
+
+    #可用在lore和display-name的变量: {owner} {begin} {name} {collect}
+    market-shop:
+      material: "CHEST"
+      display-name: "&a&l店铺名字:{name}"
+      lore:
+        - "&b&l创建时间:{begin}"
+        - "&c&l店主:{owner}"
+        - "&d&l收藏数:{collect}"
+        - "&e&l左键查看店铺中全部商品"
+        - "&f&l潜行+左键收藏店铺,潜行+右键取消收藏"
+    market-next:
+      material: "BOOK"
+      display-name: "&f&l下一页"
+      lore: "&f&l点我前往下一页"
+
+    collect-market-next:
+      material: "BOOK"
+      display-name: "&f&l下一页"
+      lore: "&f&l点我前往下一页"
+
+    collect-market-previous:
+      material: "BOOK"
+      display-name: "&f&l上一页"
+      lore: "&f&l点我前往上一页"
+    market-previous:
+      material: "BOOK"
+      display-name: "&f&l上一页"
+      lore: "&f&l点我前往上一页"
+
+    market-manage:
+      material: "CHEST"
+      display-name: "&f&l管理我的商店"
+      lore: "&f&l点击管理我的商店"
+
+    #可用在lore和display-name的变量: {name} {rest} {price} {type}
+    #material可用指定物品的名字，也可以用变量{material}来代替商品的材料
+
+    shop-good:
+      material: "{material}"
+      display-name: "&a&l商品的名称:{name}"
+      lore:
+        - "&b&l价格:{price}"
+        - "&c&l店铺中已有:{rest}"
+        - "&d&l类型:{type}"
+        - "&e&l左键交易，右键切换预览"
+
+    shop-next:
+      material: "BOOK"
+      display-name: "&f&l下一页"
+      lore: "&f&l点我前往下一页"
+
+    shop-previous:
+      material: "BOOK"
+      display-name: "&f&l上一页"
+      lore: "&f&l点我前往上一页"
+
+    shop-back:
+      material: "BARRIER"
+      display-name: "&f&l所有店铺"
+      lore: "&f&l点我查看所有店铺"
+
+
+    #可用在lore和display-name的变量:{name} {begin} {collect}
+    market-manager-shop:
+      material: "CHEST"
+      display-name: "&a&l店铺名字:{name}"
+      lore:
+        - "&b&l创建时间:{begin}"
+        - "&c&l收藏数:{collect}"
+        - "&d&l点我管理店铺中全部商品"
+
+    market-manager-next:
+      material: "BOOK"
+      display-name: "&f&l上一页"
+      lore: "&f&l点我前往上一页"
+
+    market-manager-previous:
+      material: "BOOK"
+      display-name: "&f&l下一页"
+      lore: "&f&l点我前往下一页"
+
+    market-manager-back:
+      material: "BARRIER"
+      display-name: "&f&l所有店铺"
+      lore: "&f&l点我查看所有店铺"
+
+
+    market-manager-create:
+      material: "IRON_INGOT"
+      display-name: "&f&l创建"
+      lore: "&f&l点我创建店铺"
+
+
+    market-manager-delete:
+      material: "IRON_INGOT"
+      display-name: "&f&l删除"
+      lore: "&f&l点我删除店铺"
+
+
+    #可用在lore和display-name的变量{name} {price} {rest} {type}
+    #material可用指定物品的名字，也可以用变量{material}来代替商品的材料
+
+    shop-manager-good:
+      material: "{material}"
+      display-name: "&a&l商品的名称:{name}"
+      lore:
+        - "&b&l价格:{price}"
+        - "&c&l店铺中已有:{rest}"
+        - "&d&l类型:{type}"
+        - "&e&l左键修改价格,右键切换预览"
+        - "&f&l潜行+左键存入,潜行+右键取出"
+
+    shop-manager-next:
+      material: "BOOK"
+      display-name: "&f&l上一页"
+      lore: "&f&l点我前往上一页"
+
+    shop-manager-previous:
+      material: "BOOK"
+      display-name: "&f&l下一页"
+      lore: "&f&l点我前往下一页"
+
+    shop-manager-back:
+      material: "BARRIER"
+      display-name: "&f&l所有这家商品"
+      lore: "&f&l点我管理所有这家店铺的商品"
+
+    shop-manager-create:
+      material: "IRON_INGOT"
+      display-name: "&f&l创建"
+      lore: "&f&l点我创建商品"
+
+    shop-manager-delete:
+      material: "IRON_INGOT"
+      display-name: "&f&l删除"
+      lore: "&f&l点我删除商品"
+

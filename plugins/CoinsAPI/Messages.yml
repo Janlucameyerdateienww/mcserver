@@ -1,0 +1,27 @@
+# CoinsAPI
+# Plugin by Neonn_Bukkit
+# Available Placeholders: %ae%, %oe%, %ue%, %x%, %aright%, %aleft%, %<3%
+Prefix: '&7[&eCoinsAPI&7]'
+PleaseUse: '&cPlease use /Coins [Name] [add | remove | set | reset] [Coins]'
+YourCoins: '&aYou own &e%coins% &acoins.'
+PlayerCoins: '&aThe player &e%player% &aown &e%coins% &aCoins.'
+PlayerNotOnline: '&cThis player is not online.'
+OverNumber: '&cThe number must be over than 0.'
+InvalidNumber: '&e%nonumber% &cis not a number.'
+SelfInteraction: '&cYou cannot interact with yourself.'
+NotForConsole: '&cThis command is not available from the console.'
+NoPermission: '&cYou do not have permission to execute that command!'
+Editor:
+  AddCoins: '&aThe player &e%player% &areceived &e%coins% &acoins.'
+  RemoveCoins: '&aThe player &e%player% &awere removed &e%coins% &acoins.'
+  SetCoins: '&aThe coins from player &e%player% &ahave now been set to &e%coins%&a.'
+  ResetCoins: '&aThe coins from player &e%player% &ahave been reset.'
+Receiver:
+  AddCoins: '&aYou have received &e%coins% &acoins.'
+  RemoveCoins: '&cYou have had &e%coins% &ccoins withdrawn.'
+  SetCoins: '&aYour coins have been set to &e%coins% &acoins.'
+  ResetCoins: '&cYour coins have been reseted.'
+Pay:
+  CoinsGiven: '&aYou have &e%player% %coins% &acoins given.'
+  CoinsRecived: '&aYou received &e%coins% &acoins &afrom &e%player%&a.'
+  PleaseUsePay: '&cPlease use /Pay [Name] [Coins]'

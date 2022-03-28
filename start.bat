@@ -1,0 +1,1 @@
+java -Xmx15G -Xms15G -jar spigot-1.16.5.jar nogui

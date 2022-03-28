@@ -1,0 +1,38 @@
+# Name: Basic Hub Skript #
+# Verison: v1.1 #
+# Author: MarkGG#8181 #
+# Contains: Hubs, Lobbies, Setup #
+
+command /sethub:
+    permission: hubs.set.hub
+    trigger:
+        set {hub} to location of player
+        send "&7[&aBasic Hubs&7] &7The hub has been set successfully!"
+        
+command /setlobby:
+    permission: hubs.set.lobby
+    trigger:
+        set {lobby} to location of player
+        send "&7[&aBasic Hubs&7] &7The lobby has been set successfully!"
+        
+command /hub:
+    trigger:
+        teleport player to {hub}
+        send "&7[&aBasic Hubs&7] &7Teleported to the hub!"
+        
+command /lobby:
+    trigger:
+        teleport player to {hub}
+        send "&7[&aBasic Hubs&7] &7Teleported to the lobby!"  
+        
+on join:
+	teleport player to {hub}
+	
+command /hubhelp:
+    permission: hubs.help
+    trigger:
+        send "&a-- Basic Hub Skript --" to player
+        send "&e/hub &7(Teleports the player to the hub)" to player
+        send "&e/lobby &7(Teleports the player to the lobby)" to player
+        send "&e/sethub &7(Sets the hub to the players position)" to player
+        send "&e/setlobby &7(Sets the lobby to the players position)" to player
